@@ -1,18 +1,16 @@
 package generics;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 public class genericExamples 
 {
 	public static void main(String[] args) 
 	{
-		List<Integer> ints = Arrays.asList(1,2,3);
-		int s = 0;
-		for(int n : ints)
-		{
-			s+=n;
-		}
-		System.out.println(s == 6);		
+		List<String> words = new ArrayList<String>();	
+		words.add("Hello ");
+		words.add("world!");
+		String s = words.get(0) + words.get(1);
+		System.out.println(s);
 	}
 }
