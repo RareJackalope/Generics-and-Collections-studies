@@ -1,7 +1,6 @@
 package subtypingAndWildcards;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class getandputprinciple {
@@ -17,8 +16,7 @@ public class getandputprinciple {
 	}
 	
 	public static <T> void copyList(List<? super T> dest, List<? extends T> src)
-	{	
-		
+	{
 		for(int i = 0; i < src.size(); i++)
 		{
 			dest.set(i, src.get(i));
