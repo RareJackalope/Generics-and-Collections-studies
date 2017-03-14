@@ -19,9 +19,7 @@ public class ComparibleMax {
 		for(T elm : coll)
 		{
 			if(candidate.compareTo(elm) < 0) candidate = elm;
-		}
-		
-		
+		}	
 		return candidate;
 	}
 
