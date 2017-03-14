@@ -19,6 +19,7 @@ public class WildcardCapture
 		for(int i = 0; i < temp.size(); i++)
 		{
 			list.set(i, temp.get(list.size() - i - 1));
+			
 		}
 	}
 }
