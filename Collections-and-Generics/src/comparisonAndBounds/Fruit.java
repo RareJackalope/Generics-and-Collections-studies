@@ -26,7 +26,7 @@ public class Fruit
 	public int compareTo(Fruit that)
 	{
 		return this.size < that.size ? -1 :
-			   this.size == that.size ? 1: 0;
+			   this.size == that.size ? 0 : 1;
 	}
 	
 	
